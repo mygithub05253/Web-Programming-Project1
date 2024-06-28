@@ -1,0 +1,46 @@
+.H2 {
+  text-align: center;
+}
+.Header {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.Menu {
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  height: 350px;
+  box-shadow: 0 2px 4px black;
+  text-decoration: none;
+  color: inherit;
+}
+.Menu:hover {
+  transform: scale(1.2);
+  box-shadow: 0 2px 4px black;
+}
+.div1 {
+  padding: 1%;
+}
+
+.Row {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.Img {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

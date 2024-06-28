@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>방명록</title>
+    <link rel="stylesheet" href="./guest_book.css" type="text/css" />
+  </head>
+  <body>
+    <header class="Header">
+      <h1>방명록</h1>
+    </header>
+    <div class="container">
+      <div class="menu">
+        <ol>
+          <li>
+            <a href="./index.html" target="_top">웹페이지 홈</a>
+          </li>
+          <li>
+            <a href="./profile.html" target="_top">자기소개</a>
+          </li>
+          <li>
+            <a href="./timetable.html" target="_top">학과시간표</a>
+          </li>
+          <li>
+            <a href="./roadmap.html" target="_top">학과로드맵</a>
+          </li>
+          <li>
+            <a href="./list.html" target="_top">관련 자격증</a>
+          </li>
+          <li>
+            <a href="./hobby.html" target="_top">취미</a>
+          </li>
+        </ol>
+      </div>
+      <div class="container2">
+        <form
+          action="guest_book_handle.html"
+          method="post"
+          target="guestbook_iframe"
+        >
+          <input type="text" name="name" placeholder="이름" required />
+          <select name="gender" required>
+            <option value="">성별</option>
+            <option value="남자">남자</option>
+            <option value="여자">여자</option>
+          </select>
+          <input type="number" name="age" placeholder="나이" required />
+          <input type="email" name="email" placeholder="이메일" required />
+          <button type="submit">추가</button>
+        </form>
+        <iframe name="guestbook_iframe" src="guest_book_handle.html"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

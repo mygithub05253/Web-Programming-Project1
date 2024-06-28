@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: gray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  background: gray;
+  border-right: 1px solid #4a90e2;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  padding-top: 80px;
+  color: white;
+}
+
+.menu > ol {
+  width: 200px;
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+.menu > ol > li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.menu > ol > li > a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+.menu > ol > li > a:hover {
+  background-color: #357ab8;
+}
+
+.content {
+  margin-left: 220px;
+  padding-top: 100px;
+  padding: 20px;
+}
+
+.content img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2,
+.content h3,
+.content h4,
+.content p {
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+.content section {
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #4a90e2;
+}
+
+table {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+}
+
+.VIDEO {
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.VIDEO iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
+}
+
+p {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}

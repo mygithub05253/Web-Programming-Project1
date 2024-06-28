@@ -1,0 +1,21 @@
+사용 설명서
+1. index.html이 메인 화면입니다.
+
+2. 각 html별 기능
+1) profile.html => 자기소개 화면
+2) timetable.html => 학교 시간표 화면
+3) roadmap.html => 학과 로드맵 화면
+4) hobby.html => 취미 종류 나열 화면
+5) hobby_game.html => 취미 종류 중 게임 종류 나열 화면
+6) hobby_sports.html => 취미 종류 중 스포츠 종류 나열 화면
+7) list.html => 자격증 종류 나열(학과별 + 국제 자격증)
+8) certificate1.html => 컴퓨터공학과 관련 자격증
+9) certificate2.html => 통계학과 관련 자격증
+10) certificate3.html => 국제 자격증
+11) guest_book.html => 방명록
+12) lol_introduction.html => 리그오브레전드 소개 화면
+13) lostArk_introduction.html => 로스트아크 소개 화면
+14) pokemon_introduction.html => 포켓몬스터 소개 화면
+15) baseball.html => 야구 팀 소개 화면
+16) soccer.html => 축구 팀 소개 화면
+17) esports.html => esports + lck 소개 화면
